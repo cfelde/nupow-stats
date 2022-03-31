@@ -1,0 +1,72 @@
+# AWS eu-west-1a z1d.large
+# HashPerf git hash 1b23981cfae7e5f9f8d7dca0d83e7fa0c893700d
+
+ubuntu@ip-192-168-0-181:~$ date
+Mon Mar 14 21:33:49 UTC 2022
+
+ubuntu@ip-192-168-0-181:~$ uptime
+ 21:34:06 up 7 days, 15 min,  1 user,  load average: 0.03, 0.50, 0.79
+
+ubuntu@ip-192-168-0-181:~$ uname --all
+Linux ip-192-168-0-181 5.13.0-1014-aws #15-Ubuntu SMP Thu Feb 10 16:35:04 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+ubuntu@ip-192-168-0-181:~$ java -version
+openjdk version "11.0.14" 2022-01-18
+OpenJDK Runtime Environment (build 11.0.14+9-Ubuntu-0ubuntu2.22.10)
+OpenJDK 64-Bit Server VM (build 11.0.14+9-Ubuntu-0ubuntu2.22.10, mixed mode, sharing)
+
+ubuntu@ip-192-168-0-181:~$ cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8151 CPU @ 3.40GHz
+stepping	: 4
+microcode	: 0x2006c0a
+cpu MHz		: 4008.410
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit
+bogomips	: 6799.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8151 CPU @ 3.40GHz
+stepping	: 4
+microcode	: 0x2006c0a
+cpu MHz		: 3399.998
+cache size	: 25344 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit
+bogomips	: 6799.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
